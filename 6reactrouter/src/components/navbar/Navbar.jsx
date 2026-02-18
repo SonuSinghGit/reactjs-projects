@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="bg-gray-600 text-white shadow-md">
-      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="container mx-auto px-6 py-4 flex justify-between text-center">
         <h1 className="text-xl font-bold">MyWebsite</h1>
 
-        <ul className="flex space-x-6">
+        <ul className="flex space-x-6 items-center">
           <li>
             <Link to="/" className="hover:text-yellow-300 transition duration-300">
               Home
@@ -24,7 +24,8 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/about" className="hover:text-yellow-300 transition duration-300">
+            <Link to="/github" className="hover:text-yellow-300 transition duration-300">
+            Github
             </Link>
           </li>
         </ul>
