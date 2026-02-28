@@ -5,8 +5,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='w-full h-screen text-3xl'>
-      hello react
+    <div className='w-full h-screen text-3xl text-amber-300 px-4 py-4 text-center'>
+      Password Generator
     </div>
   )
 }
