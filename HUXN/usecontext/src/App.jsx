@@ -1,11 +1,15 @@
 import React from 'react'
-
+import UserProfile from './components/UserProfile'
+import { UserProvider } from './UserContext'
+import UpdateUser from './components/UpdateUser'
 const App = () => {
   return (
-    <div>
+    <UserProvider>
       <h1>Create Contect and use it</h1>
-    </div>
+      <UserProfile/>
+      <UpdateUser/>
+    </UserProvider>
   )
 }
 
-export default App
+export default App;
